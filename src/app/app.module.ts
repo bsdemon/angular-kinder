@@ -11,7 +11,7 @@ import { MainContainerComponent } from './components/main-container/main-contain
     AppComponent,
     LeftSideBarComponent,
     NavBarComponent,
-    MainContainerComponent
+    MainContainerComponent,
   ],
   imports: [
     BrowserModule
