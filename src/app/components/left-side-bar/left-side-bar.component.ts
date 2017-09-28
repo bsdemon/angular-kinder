@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Books } from './../../books';
 
 @Component({
   selector: 'app-left-side-bar',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./left-side-bar.component.css']
 })
 export class LeftSideBarComponent implements OnInit {
+
+  @Input('books') books: Books;
 
   constructor() { }
 
