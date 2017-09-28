@@ -1,5 +1,5 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { Books } from './../../books';
+import { Component, OnInit } from '@angular/core';
+
 
 @Component({
   selector: 'app-left-side-bar',
@@ -7,8 +7,6 @@ import { Books } from './../../books';
   styleUrls: ['./left-side-bar.component.css']
 })
 export class LeftSideBarComponent implements OnInit {
-
-  @Input('books') books: Books;
 
   constructor() { }
 
